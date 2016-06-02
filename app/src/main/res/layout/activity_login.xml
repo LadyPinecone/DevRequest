@@ -8,7 +8,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.schoollaptop5.devrequest.login"
-    android:background="@drawable/background">
+    android:background="@drawable/background"
+    android:clickable="false">
 
     <EditText
         android:layout_width="wrap_content"
@@ -23,7 +24,7 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OK"
+        android:text="@string/ok"
         android:id="@+id/button"
         android:clickable="true"
         android:layout_alignParentBottom="true"
@@ -37,17 +38,18 @@
         android:id="@+id/imageView"
         android:background="@drawable/request"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/wat" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Login"
+        android:text="@string/login"
         android:id="@+id/textView"
         android:layout_above="@+id/editText"
         android:layout_centerHorizontal="true"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textColor="#62ff00" />
 
 </RelativeLayout>
