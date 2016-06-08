@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vragen">
+        <item >Vraag 1</item>
+        <item >Vraag 2</item>
+        <item >Vraag 3</item>
+        <item >Vraag 4</item>
+        <item >Vraag 5</item>
+        <item >Vraag 6</item>
+        <item >vraag 7</item>
+        <item >Vraag 8</item>
+        <item >Vraag 9</item>
+        <item >Vraag 10</item>
+        <item >Vraag 11</item>
+    </string-array>
+</resources>
